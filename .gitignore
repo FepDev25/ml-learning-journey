@@ -1,1 +1,5 @@
 bootcamps/machine-learning-y-data-science/datasets
+
+# Archivos de datos grandes
+*.csv
+bootcamps/python-ds-18-dias/dia11_ML1/datos_tarjetas/
