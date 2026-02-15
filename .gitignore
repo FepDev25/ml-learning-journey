@@ -1,5 +1,4 @@
 bootcamps/machine-learning-y-data-science/datasets
 
-# Archivos de datos grandes
-*.csv
-bootcamps/python-ds-18-dias/dia11_ML1/datos_tarjetas/
+# Archivo específico demasiado grande para GitHub
+bootcamps/python-ds-18-dias/dia11_ML1/datos_tarjetas/tarjetas_credito.csv
