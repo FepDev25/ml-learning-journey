@@ -1,0 +1,170 @@
+# ==============================================================================
+# Repositorio global de cursos de Machine Learning / Deep Learning
+# Reglas pensadas para Python + Data Science + ML/DL.
+# Los datasets pesados NO se versionan (viven solo en local).
+# ==============================================================================
+
+# ----------------------------- Entornos virtuales -----------------------------
+venv/
+.venv/
+env/
+.env/
+ENV/
+virtualenv/
+.python-version
+*.egg-info/
+.eggs/
+
+# ------------------------------- Python core ----------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+develop-eggs/
+dist/
+downloads/
+sdist/
+wheels/
+share/python-wheels/
+pip-wheel-metadata/
+MANIFEST
+*.manifest
+*.spec
+.installed.cfg
+*.egg
+Pipfile.lock
+poetry.lock
+
+# --------------------------- Testing / cobertura ------------------------------
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+htmlcov/
+.cache/
+
+# --------------------------------- Notebooks ----------------------------------
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+*.nbconvert.py
+
+# -------------------------- Jupyter / IPython ---------------------------------
+profile_default/
+ipython_config.py
+jupyter_config.json
+.jupyter/
+
+# ------------------------------- Datasets -------------------------------------
+# Carpetas típicas de datos: se mantienen en local, no en git.
+datasets/
+datasets_*/
+data/
+data_*/
+raw/
+interim/
+processed/
+external/
+models/
+outputs/
+artifacts/
+.checkpoints/
+checkpoints/
+
+# Formatos binarios / tabulares pesados.
+*.parquet
+*.feather
+*.orc
+*.avro
+*.h5
+*.hdf5
+*.hdf
+*.npz
+*.npy
+*.pkl
+*.pickle
+*.joblib
+*.msgpack
+*.arrow
+*.db
+*.sqlite
+*.sqlite3
+*.duckdb
+*.bigquery
+*.tfrecord
+*.record
+*.bin
+*.idx
+*.npy.gz
+
+# ------------------------- Modelos y pesos entrenados -------------------------
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.pb
+*.tflite
+*.safetensors
+*.gguf
+*.model
+*.weights
+*.caffemodel
+saved_model/
+logs/
+lightning_logs/
+runs/
+wandb/
+mlruns/
+mlartifacts/
+.dvc/
+.dvcignore
+
+# --------------------------------- TensorFlow / Keras -------------------------
+.keras/
+
+# ---------------------------------- Secrets -----------------------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+credentials.json
+kaggle.json
+kaggle/
+
+# ---------------------------------- Logs --------------------------------------
+*.log
+*.log.*
+
+# ------------------------- Caches / datos temporales --------------------------
+.cache/
+.tmp/
+.temp/
+*.tmp
+*.temp
+~$*
+*~
+.DS_Store
+Thumbs.db
+
+# ------------------------------ Editores / IDE --------------------------------
+.vscode/
+!.vscode/settings.json.example
+.idea/
+*.swp
+*.swo
+*~
+.spyderproject
+.spyproject
+.ropeproject
+
+# ---------------------------------- Salidas -----------------------------------
+*.out
+*.gz
+*.zip
+!*.tar.gz
